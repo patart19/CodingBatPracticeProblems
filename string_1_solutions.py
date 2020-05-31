@@ -4,7 +4,7 @@
 
 # -------Solution------
 def hello_name(name):
-    return "Hello {}!".format(name)
+    return ("Hello {}!".format(name))
 
 
 # ---------Make_abba-------
@@ -23,4 +23,4 @@ def make_abba(a, b):
 
 
 def make_tags(tag, word):
-    return "<{}>{}</{}>".format(tag, word, tag)
+    return ("<{}>{}</{}>".format(tag, word, tag))
