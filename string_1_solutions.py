@@ -1,24 +1,23 @@
-#-----------------Hello Name-----------------
+# "'-----------------Hello Name-----------------
 
-#Given a string name, return a greeting of the form "Hello (name)!".
+# Given a string name, return a greeting of the form "Hello (name)!".
 
-#-------Solution------
+# -------Solution------
 def hello_name(name):
     return ("Hello {}!". format(name))
 
-#---------Make_abba-------
+# ---------Make_abba-------
 
-#Given two strings, a and b, return the result of putting them in the order
-#abba
+# #Given two strings, a and b, return the result of putting them in the order
+# #abba
 
-#-----------solution
 def make_abba(a, b):
     return a + b + b + a
 
 
-#-----------Make_tags--------
+# -----------Make_tags--------
 
-#Given tag and word strings, create the HTML string with tags around the word
+# Given tag and word strings, create the HTML string with tags around the word
 
 def make_tags(tag, word):
-    return("<{}>{}</{}>".format(tag,word,tag))
+    return("<{}>{}</{}>".format(tag, word, tag))
